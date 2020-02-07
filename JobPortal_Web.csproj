@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="FrontPage.aspx" />
-    <Content Include="GridView.aspx" />
+    <Content Include="GridSample.aspx" />
     <Content Include="job-search.png" />
     <Content Include="signup.jpg" />
     <Content Include="Style.css" />
@@ -96,12 +96,12 @@
     <Compile Include="FrontPage.aspx.designer.cs">
       <DependentUpon>FrontPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GridView.aspx.cs">
-      <DependentUpon>GridView.aspx</DependentUpon>
+    <Compile Include="GridSample.aspx.cs">
+      <DependentUpon>GridSample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GridView.aspx.designer.cs">
-      <DependentUpon>GridView.aspx</DependentUpon>
+    <Compile Include="GridSample.aspx.designer.cs">
+      <DependentUpon>GridSample.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginManager.cs" />
     <Compile Include="PersonDetails.cs" />

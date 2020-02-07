@@ -14,16 +14,11 @@
     <form id="form1" runat="server">
     
         <h1 align="center" style="color:black">Future Feature</h1>
-            <div class="MasterIcon">
-              <asp:Menu ID="NavigationMenu"  runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                        <Items>
-                        <asp:MenuItem runat="server" NavigateUrl="~/About.aspx" Text="About"/>
-                 
-                        <asp:MenuItem runat="server" NavigateUrl="~/Front.aspx" Text="Home"/>
-                       <%-- <asp:MenuItem NavigateUrl="~/Help.aspx" Text="Help"/>--%>
-                    </Items>
-        </asp:Menu>
-       </div>
+           <asp:HyperLink ID="hypAbout" runat="server" Text="About" NavigateUrl="~/About.aspx"></asp:HyperLink>
+              <asp:HyperLink ID="hypHome" runat="server" Text="Home" NavigateUrl="~/FrontPage.aspx"></asp:HyperLink>
+             
+                      
+      
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

@@ -33,13 +33,22 @@ namespace WebApplication2
 		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
 		/// <summary>
-		/// NavigationMenu control.
+		/// hypAbout control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Menu NavigationMenu;
+		protected global::System.Web.UI.WebControls.HyperLink hypAbout;
+
+		/// <summary>
+		/// hypHome control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.HyperLink hypHome;
 
 		/// <summary>
 		/// ContentPlaceHolder1 control.

@@ -4,14 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
-namespace WebApplication2
+using System.Data.SqlClient;
+using System.Data;
+namespace JobPortal_Web
 {
 	public partial class FrontPage : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
-		{
-
-		}
+		{ }
 	}
 }

@@ -16,6 +16,7 @@ namespace JobPortal_Web
                
                 LoginManager login = new LoginManager();
                 string role = login.LoginCheck(userName, passWord);
+                Response.Redirect("GridSample.aspx");
                 Response.Write(role);
             }
             catch

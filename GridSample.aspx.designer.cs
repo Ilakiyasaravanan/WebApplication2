@@ -7,20 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication2
+namespace JobPortal_Web
 {
 
 
-	public partial class GridView
+	public partial class GridSample
 	{
 
 		/// <summary>
-		/// Jobview control.
+		/// JobPortalView control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.GridView Jobview;
+		protected global::System.Web.UI.WebControls.GridView JobPortalView;
 	}
 }

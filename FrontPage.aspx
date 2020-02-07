@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FrontPage.aspx.cs" Inherits="WebApplication2.FrontPage" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FrontPage.aspx.cs" Inherits="JobPortal_Web.FrontPage" %>
  <asp:Content ID="ContentHome" runat="server" contentplaceholderid="head">
-    <link rel="stylesheet" href="Style.css" />
+     <link rel="stylesheet" href="Style.css" />
      
    </asp:Content>
 <asp:Content ID="Content" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
