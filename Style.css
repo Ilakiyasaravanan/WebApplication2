@@ -1,0 +1,44 @@
+﻿body{
+    background-image: url("job-search.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.signup {
+    background-image: url("signup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+ table td tr{
+    background-color:transparent;
+}
+table td {
+    background-color: transparent;
+}
+menu menuitem{
+    float:left;
+}
+.lnkAbout,.lnkHome{
+float:right;
+margin-left:80%;
+text-decoration-color:aqua;
+}
+.MasterIcon a{
+  float:right;
+  margin-left:80%;
+  padding:5px;
+  text-decoration:none;
+  color:black;
+  position:relative;
+}
+#hyp_login
+{
+   margin-right:500px;
+}
+#hyp_signup{
+    margin-right:500px;
+}
