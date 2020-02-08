@@ -13,15 +13,7 @@
     background-size: 100% 100%;
 
 }
- table td tr{
-    background-color:transparent;
-}
-table td {
-    background-color: transparent;
-}
-menu menuitem{
-    float:left;
-}
+
 .lnkAbout,.lnkHome{
 float:right;
 margin-left:80%;
@@ -41,4 +33,8 @@ text-decoration-color:aqua;
 }
 #hyp_signup{
     margin-right:500px;
+}
+#hyp_grid {
+    margin-right: 500px;
+    color:blue;
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data.SqlClient;
-
-namespace JobPortal_Web
+using JobPortal_BL;
+namespace JobPotal_Entity
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class LogIn : System.Web.UI.Page
     {
         string passWord;
         long userName;
@@ -13,10 +13,7 @@ namespace JobPortal_Web
             passWord = txtPassword.Text;
             try
             {
-               
-                LoginManager login = new LoginManager();
-                string role = login.LoginCheck(userName, passWord);
-                Response.Redirect("GridSample.aspx");
+                string role= new LogInMediator().Login(userName,passWord);                                      
                 Response.Write(role);
             }
             catch

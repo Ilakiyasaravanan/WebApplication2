@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JobPortal_Web
+namespace JobPotal_Web
 {
 
 

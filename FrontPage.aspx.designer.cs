@@ -7,12 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JobPortal_Web
+namespace JobPotal_Entity
 {
 
 
 	public partial class FrontPage
 	{
+
+		/// <summary>
+		/// hyp_grid control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.HyperLink hyp_grid;
 
 		/// <summary>
 		/// hyp_login control.

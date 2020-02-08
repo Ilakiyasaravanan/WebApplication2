@@ -7,21 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JobPortal_Web
+namespace JobPotal_Entity
 {
 
 
-	public partial class WebForm2
+	public partial class SignUpPage
 	{
 
 		/// <summary>
-		/// Firstname control.
+		/// txtFirstname control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Firstname;
+		protected global::System.Web.UI.WebControls.TextBox txtFirstname;
 
 		/// <summary>
 		/// validateFN control.
@@ -33,40 +33,49 @@ namespace JobPortal_Web
 		protected global::System.Web.UI.WebControls.RequiredFieldValidator validateFN;
 
 		/// <summary>
-		/// LastName control.
+		/// txtLastName control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox LastName;
+		protected global::System.Web.UI.WebControls.TextBox txtLastName;
 
 		/// <summary>
-		/// Phonenumber control.
+		/// txtPhonenumber control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Phonenumber;
+		protected global::System.Web.UI.WebControls.TextBox txtPhonenumber;
 
 		/// <summary>
-		/// Password control.
+		/// RegularExpressionValidator1 control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Password;
+		protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
 		/// <summary>
-		/// ConfirmPassword control.
+		/// txtPassword control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox ConfirmPassword;
+		protected global::System.Web.UI.WebControls.TextBox txtPassword;
+
+		/// <summary>
+		/// txtConfirmPassword control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox txtConfirmPassword;
 
 		/// <summary>
 		/// comparePassword control.
@@ -78,13 +87,13 @@ namespace JobPortal_Web
 		protected global::System.Web.UI.WebControls.CompareValidator comparePassword;
 
 		/// <summary>
-		/// Address control.
+		/// txtAddress control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Address;
+		protected global::System.Web.UI.WebControls.TextBox txtAddress;
 
 		/// <summary>
 		/// rdGender control.
@@ -96,13 +105,13 @@ namespace JobPortal_Web
 		protected global::System.Web.UI.WebControls.RadioButtonList rdGender;
 
 		/// <summary>
-		/// Email control.
+		/// txtEmail control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox Email;
+		protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
 		/// <summary>
 		/// Regex control.
@@ -120,24 +129,15 @@ namespace JobPortal_Web
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RadioButton rdUser;
+		protected global::System.Web.UI.WebControls.RadioButtonList rdUser;
 
 		/// <summary>
-		/// rdHR control.
+		/// btnSign control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RadioButton rdHR;
-
-		/// <summary>
-		/// btnSignUp control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button btnSignUp;
+		protected global::System.Web.UI.WebControls.Button btnSign;
 	}
 }

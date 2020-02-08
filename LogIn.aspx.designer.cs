@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JobPortal_Web
+namespace JobPotal_Entity
 {
 
 
-	public partial class WebForm1
+	public partial class LogIn
 	{
 
 		/// <summary>
