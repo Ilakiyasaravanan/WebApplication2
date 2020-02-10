@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Data;
-namespace JobPotal_Entity
+namespace JobPotal_Web
 {
 	public partial class FrontPage : System.Web.UI.Page
 	{

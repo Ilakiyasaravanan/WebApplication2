@@ -5,7 +5,7 @@
     background-attachment: fixed;
     background-size: 100% 100%;
 }*/
-.signup {
+/*.signup {
     background-image: url("signup.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,8 +26,8 @@ text-decoration-color:aqua;
   text-decoration:none;
   color:black;
   position:relative;
-}
-#hyp_login
+}*/
+/*#hyp_login
 {
    margin-right:500px;
 }
@@ -37,4 +37,4 @@ text-decoration-color:aqua;
 #hyp_grid {
     margin-right: 500px;
     color:blue;
-}
+}*/

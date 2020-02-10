@@ -4,12 +4,10 @@
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="head">
     <link rel="stylesheet" href="Style.css" />
 </asp:Content>
-<asp:Content ID="content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="contentbody" align="center">   <strong>Registration Form</strong>
-        </div>
+<asp:Content ID="content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server"><div class="contentbody" align="center">   <strong>Registration Form</strong> </div>
     <table style="width: 100%;"> 
                 <tr>
-                    <td>Name:</td>
+                    <td>First Name:</td>
                     <td>
                         <asp:TextBox ID="txtFirstname" runat="server" placeholder="Enter Firstname" Style="height: 25px"></asp:TextBox></td>
                     <td>
