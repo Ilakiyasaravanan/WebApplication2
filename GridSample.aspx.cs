@@ -20,6 +20,7 @@ namespace JobPotal_Web
                 FillData();
             }
         }
+
         protected void FillData()
         {
             SqlConnection con =new ConnectionMediator().ConnectionProvider();
