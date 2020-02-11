@@ -67,24 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="FrontPage.aspx" />
     <Content Include="GridSample.aspx" />
-    <Content Include="Images\job-search.png" />
-    <Content Include="Images\signup.jpg" />
     <Content Include="SignUpPage.aspx" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
-    <Content Include="LogIn.aspx" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="FrontPage.aspx.cs">
       <DependentUpon>FrontPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,12 +104,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="LogIn.aspx.cs">
-      <DependentUpon>LogIn.aspx</DependentUpon>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LogIn.aspx.designer.cs">
-      <DependentUpon>LogIn.aspx</DependentUpon>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -137,14 +127,17 @@
       <Project>{99ae7f92-edbd-4b9a-b4e4-70f6b674e6c4}</Project>
       <Name>JobPortal_BL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JobPotal_Common\JobPotal_Common.csproj">
+    <ProjectReference Include="..\JobPotal_Common\JobPortal_Common.csproj">
       <Project>{03b132cd-c3be-44ae-bac6-11bfa8d37fac}</Project>
-      <Name>JobPotal_Common</Name>
+      <Name>JobPortal_Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JobPotal_Entity\JobPotal_Entity.csproj">
+    <ProjectReference Include="..\JobPotal_Entity\JobPortal_Entity.csproj">
       <Project>{199b7bc1-8697-480b-abe8-1ae1e8396d4b}</Project>
-      <Name>JobPotal_Entity</Name>
+      <Name>JobPortal_Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
